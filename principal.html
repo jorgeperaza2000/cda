@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="_assets/css/jqm-demos.css">
+    <link rel="stylesheet" href="_assets/css/jqm-datebox-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/themes/stylesCf.css" />
+    <link rel="manifest" href="manifest.json">
+    <script src="js/jquery.min.js"></script>
+    <script src="_assets/js/index.js"></script>
+    <!--<script type="text/javascript" src="cordova.js"></script>-->
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox-1.4.5.core.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox-1.4.5.mode.calbox.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox-1.4.5.mode.datebox.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox.lang.utf8.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/functions.js"></script>
+    <script type="text/javascript">
+        
+    </script>
+</head>
+
+<body> 
+
+
+    <div data-role="page" id="principal" class="jqm-demos" data-quicklinks="false">
+        <div data-role="header" class="jqm-header">
+            <h2><a href="principal.html" title="Control de Agencias"><img src="_assets/img/cda-logo.png" alt="Control de Agencias"></a></h2>
+            <a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+        </div>
+        <!-- /header -->
+        <div role="main" class="ui-content jqm-content">
+            <h2>Hola <span id="txtName"></span></h2>
+            <h4><span id="txtSaldo"></span></h4>
+            <h4><span id="txtDeuda"></span></h4>
+
+            <a href="ventaDiaria.html" class="ui-btn ui-icon-bullets ui-btn-icon-left">Ventas Diarias</a>
+            <a href="abonos.html" class="ui-btn ui-icon-plus ui-btn-icon-left">Abonos</a>
+            <a href="clientes.html" class="ui-btn ui-icon-user ui-btn-icon-left">Cuentas por Cobrar</a>
+            
+        </div>
+        <!-- /content -->
+        <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+            <ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+                <li data-icon="home"><a href="principal.html">Inicio</a></li>
+                <li><a href="addAbonos.html">Abonar</a></li>
+                <li><a href="addClientes.html">Agregar Clientes</a></li>
+                <li><a href="addProgramas.html">Agregar Programas</a></li>
+                <!--<li data-filtertext="form button widget input button submit reset"><a href="../button/" data-ajax="false">Button widget</a></li>
+                <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+						<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+						    Checkboxradio widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+						</a>
+					</h3>
+                    <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                        <ul>
+                            <li data-filtertext="form checkboxradio widget checkbox input checkboxes controlgroups"><a href="../checkboxradio-checkbox/" data-ajax="false">Checkboxes</a></li>
+                            <li data-filtertext="form checkboxradio widget radio input radio buttons controlgroups"><a href="../checkboxradio-radio/" data-ajax="false">Radio buttons</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+						<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+							Collapsible (set) widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+						</a>
+					</h3>
+                    <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                        <ul>
+                            <li data-filtertext="collapsibles content formatting"><a href="../collapsible/" data-ajax="false">Collapsible</a></li>
+                            <li data-filtertext="dynamic collapsible set accordion append expand"><a href="../collapsible-dynamic/" data-ajax="false">Dynamic collapsibles</a></li>
+                            <li data-filtertext="accordions collapsible set widget content formatting grouped collapsibles"><a href="../collapsibleset/" data-ajax="false">Collapsible set</a></li>
+                        </ul>
+                    </div>
+                </li>-->
+                <li><a href="index.html">Salir</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="_assets/css/jqm-demos.css">
+    <link rel="stylesheet" href="_assets/css/jqm-datebox-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/themes/stylesCf.css" />
+    <link rel="manifest" href="manifest.json">
+    <script src="js/jquery.min.js"></script>
+    <script src="_assets/js/index.js"></script>
+    <!--<script type="text/javascript" src="cordova.js"></script>-->
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox-1.4.5.core.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox-1.4.5.mode.calbox.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox-1.4.5.mode.datebox.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox.lang.utf8.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/functions.js"></script>
+    
+</head>
+
+<body> 
+
+
+     <div data-role="page" id="ventaDiaria" class="jqm-demos" data-quicklinks="false">
+        <div data-role="header" class="jqm-header">
+            <h2><a href="principal.html" title="Control de Agencias"><img src="_assets/img/cda-logo.png" alt="Control de Agencias"></a></h2>
+            <a href="principal.html" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-back ui-nodisc-icon ui-alt-icon ui-btn-left">Atras</a>
+        </div>
+        <!-- /header -->
+    
+        <div role="main" class="ui-content jqm-content">
+            <h2>Venta Diaria</h2>
+
+            <label> Fecha </label>
+            <input name="txtFecha" id="mode2" type="text" data-role="datebox" data-options='{"mode":"datebox", "useLang":"es-ES", "showInitialValue":"today", "beforeToday": "true"}' />
+        
+            <div id="listadoProgramas">
+                
+            </div>
+
+            <div id="totalesDia">
+                <h3>Total Día</h3>
+                <div class="permiteBorrarHtml" id="totalVenta"></div>
+                <div class="permiteBorrarHtml" id="totalPremios"></div>
+                <div class="permiteBorrarHtml" id="totalComision"></div>
+                <div class="permiteBorrarHtml" id="totalBanca"></div>
+            </div>
+
+            <button type="buttom" id="btnAddVentaDiaria" class="show-page-loading-msg ui-btn" data-textonly="false" data-textvisible="false" data-msgtext="" data-inline="true">Guardar</button>
+        </div>
+    
+    </div>
+
+</body>
+</html>

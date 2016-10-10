@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="_assets/css/jqm-demos.css">
+    <link rel="stylesheet" href="_assets/css/jqm-datebox-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/themes/stylesCf.css" />
+    <link rel="manifest" href="manifest.json">
+    <script src="js/jquery.min.js"></script>
+    <script src="_assets/js/index.js"></script>
+    <!--<script type="text/javascript" src="cordova.js"></script>-->
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox-1.4.5.core.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox-1.4.5.mode.calbox.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox-1.4.5.mode.datebox.min.js"></script>
+    <script type="text/javascript" src="js/datebox/jqm-datebox.lang.utf8.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/functions.js"></script>
+    
+</head>
+
+<body> 
+
+    <div data-role="page" id="clientes" class="jqm-demos" data-quicklinks="false">
+        <div data-role="header" class="jqm-header">
+            <h2><a href="principal.html" title="Control de Agencias"><img src="_assets/img/cda-logo.png" alt="Control de Agencias"></a></h2>
+            <a href="principal.html" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-back ui-nodisc-icon ui-alt-icon ui-btn-left">Atras</a>
+            <a href="#addCliente" id="lnkAddCliente" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-plus ui-nodisc-icon ui-alt-icon ui-btn-right">Nuevo</a>
+        </div>
+        <!-- /header -->
+        <div role="main" class="ui-content jqm-content">
+            <h2>Clientes</h2>
+           
+            <div id="listadoClientes">
+                
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
