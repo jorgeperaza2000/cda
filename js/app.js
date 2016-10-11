@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+/*window.addEventListener('load', function() {
   var outputElement = document.getElementById('output');
   console.log(outputElement);
   navigator.serviceWorker.register('service-worker.js', { scope: './' })
@@ -28,4 +28,4 @@ window.addEventListener('load', function() {
     
   });
   
-});
+});*/
