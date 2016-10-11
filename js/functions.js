@@ -1,5 +1,5 @@
 //var server = "http://www.ximplex.com.ve/agenciaServer/";
-var server = "http://192.168.173.1/agenciaServer/";
+var server = "http://www.ximplex.com.ve/agenciaServer/";
 $(document).ready(function(){	
 	$('#formulario').submit(function() { 
 			
